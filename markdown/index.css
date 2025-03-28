@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+ .markedDown-container{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    gap: 20px;
+    background-color: #ffffff;
+    margin-top : 10px;
+    
+}
+.textArea-container,.preview-container{
+    width: 50%;
+    box-shadow: -1px -1px 26px 0px rgba(0,0,0,0.75);     
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.text-area{
+   padding: 10px 10px;
+   resize: none;
+   width:100%;
+   height:80%;
+   margin-top: 20px;
+}
+h1,h2{
+    border-bottom: 2px solid #2360d3;
+    padding: 5px 5px;
+    margin: 8px 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2360d3;
+    cursor: pointer;
+    transform: scale();
+} 
+
+button:hover{
+    transform: scale(0.95);
+}
+
+#parsed{
+    padding: 10px 10px;
+}
+
+#parsed pre{
+    background: #333232;
+    color:#ffffff;
+    padding: 10px 10px;
+    margin: 5px 5px;
+
+}
+
+#parsed p{
+    padding: 5px;
+}
+#parsed a{
+    padding: 5px;
+    text-decoration: none; 
+}
+#parsed a:hover{
+    padding: 5px;
+    text-decoration: underline;
+}
+#parsed ul ol{
+    margin: 5px;
+}
+#parsed ul li{
+    margin: 10px;
+}
+#parsed ol li{
+    margin: 10px;
+}
